@@ -6,9 +6,9 @@ import java.util.Collections;
 public class Main {
     public static void main(String[] args) {
         Scanner unos = new Scanner(System.in);
-        ArrayList<Double> L = new ArrayList<Double>();
+        ArrayList<Double> L = new ArrayList<>();
         while (true) {
-            System.out.println("Unesite broj: ");
+            System.out.println("Unesite broj (\"stop\" za prekid unosa): ");
             if (unos.hasNextDouble()) {
                 L.add(unos.nextDouble());
                 continue;
